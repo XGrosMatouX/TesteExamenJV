@@ -1601,3 +1601,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: ================================================
+[2025.11.27-14.48.40:202][698]LogPSOHitching: Encountered 200 PSO creation hitches so far (54 graphics, 146 compute). 0 of them were precached.
+[2025.11.27-14.49.05:194][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 329.736359
+[2025.11.27-14.49.06:195][953]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-14.49.06:195][954]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 330.413239, Update Interval: 357.771545
