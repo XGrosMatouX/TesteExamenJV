@@ -1560,3 +1560,44 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.27-14.45.44:858][163]LogMeshUtilities: Finished distance field build in 8.7s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2025.11.27-14.45.45:315][164]LogMeshUtilities: Finished distance field build in 9.2s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 64% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2025.11.27-14.45.46:674][168]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.11.27-14.46.44:851][342]LogShaderCompilers: Display: ================================================
+[2025.11.27-14.46.44:851][342]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.27-14.46.44:851][342]LogShaderCompilers: Display: Total job queries 18 293, among them cache hits 3 966 (21.68%), DDC hits 12 329 (67.40%), Duplicates 1 420 (7.76%)
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Tracking 12 907 distinct input hashes that result in 11 822 distinct outputs (91.59%)
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: RAM used: 158,05 MiB of 819,20 MiB budget. Usage: 19.29%
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Shaders Compiled: 578
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Jobs assigned 578, completed 578 (100%)
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Average time worker was idle: 0.66 s
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Time job spent in pending queue: average 8.84 s, longest 45.84 s
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Job execution time: average 11.25 s, max 44.26 s
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Job life time (pending + execution): average 20.09 s, max 51.12
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Shader code size: total 9,284 MiB, numShaders 601, average 15,819 KiB, min 2,246 KiB, max 55,505 KiB
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 136.77 s
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.11.27-14.46.44:852][342]LogShaderCompilers: Display: Jobs were issued in 161 batches (only local compilation was used), average 3.59 jobs/batch
+[2025.11.27-14.46.44:853][342]LogShaderCompilers: Display: Average processing rate: 4.23 jobs/sec
+[2025.11.27-14.46.44:853][342]LogShaderCompilers: Display: Total thread time: 1 141,304 s
+[2025.11.27-14.46.44:853][342]LogShaderCompilers: Display: Total thread preprocess time: 272,829 s
+[2025.11.27-14.46.44:853][342]LogShaderCompilers: Display: Percentage time preprocessing: 23.91%
+[2025.11.27-14.46.44:853][342]LogShaderCompilers: Display: Effective parallelization: 8.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 1.043058
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 9.24 sec, max 14.77 sec, min 4.13 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 8.50 sec, max 8.50 sec, min 8.50 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 7.86 sec, max 7.86 sec, min 7.86 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 7.14 sec, max 12.71 sec, min 4.15 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   10 times, average 5.93 sec, max 8.55 sec, min 3.10 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 29.57% of total time (compiled   80 times, average 4.22 sec, max 8.89 sec, min 2.31 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 10.01% of total time (compiled   16 times, average 7.14 sec, max 12.71 sec, min 4.15 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 6.48% of total time (compiled    8 times, average 9.24 sec, max 14.77 sec, min 4.13 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.26% of total time (compiled   47 times, average 1.52 sec, max 6.05 sec, min 0.46 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 5.20% of total time (compiled   10 times, average 5.93 sec, max 8.55 sec, min 3.10 sec)
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: === Material stats ===
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Materials Translated:    142
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.11.27-14.46.44:857][342]LogShaderCompilers: Display: Material Translation Only: 0.06 s (41%)
+[2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.27-14.46.44:859][342]LogShaderCompilers: Display: ================================================
